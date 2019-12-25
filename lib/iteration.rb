@@ -5,7 +5,6 @@ def join_ingredients(src)
     row_index += 1
     end
     return new_array 
-  end
   # Given an Array of 2-element Arrays ( [ [food1, food2], [food3, # food4]....[foodN, foodM]]):
   #
   # Build a new Array that contains strings where each pair of foods is
