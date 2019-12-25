@@ -6,7 +6,7 @@ def join_ingredients(src)
       new_array = "I love #{src[element_index]} and #{src[element_index + 1]} on my pizza"
       element_index += 1
     end
-    row_index += 1 
+    row_index += 1
     return new_array
   end
   # Given an Array of 2-element Arrays ( [ [food1, food2], [food3, # food4]....[foodN, foodM]]):
