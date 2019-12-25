@@ -20,7 +20,7 @@ def find_greater_pair(src)
   row_index = 0
   while row_index < src.count do
     src[row_index].sort!
-    new_array << src.[row_index].last
+    new_array << src[row_index].last
     row_index +=1
   end
   return new_array
