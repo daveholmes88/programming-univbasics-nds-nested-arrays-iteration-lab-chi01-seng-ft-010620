@@ -7,6 +7,7 @@ def join_ingredients(src)
       element_index += 1
     end
     row_index += 1 
+    return new_array
   end
   # Given an Array of 2-element Arrays ( [ [food1, food2], [food3, # food4]....[foodN, foodM]]):
   #
